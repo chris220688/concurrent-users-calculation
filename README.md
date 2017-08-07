@@ -1,2 +1,3 @@
-# concurrent-users-calculation
-This is an experimental single class Java application that calculates the concurrent users connected at a DB.
+ConcurrentUsers project:
+
+The purpose of this project is to calculate the maximum number of concurrent users that were logged into a System, supposed that "log in" and "log out" entries are monitored by a database. The project connects to the database, retrieves the usersTable and calculates the concurrent users for each day. The most interesting part of the project is the algorithm that was used to calculate the numbers. Inside the project folder you can find a sample of the usersTable.
